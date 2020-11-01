@@ -105,7 +105,7 @@ export default {
     },
     async allData(){
       this.loading = true;
-      return this.dataCharacter =  await getData.getDataCharacter().finally(() => this.loading = false);
+      this.dataFilterMembers =  await getData.getDataCharacter().finally(() => this.loading = false);
     }
   },
   components: {

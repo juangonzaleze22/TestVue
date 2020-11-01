@@ -66,7 +66,7 @@
 
 <script>
 import Loading from '../components/loading';
-import CallsData from '../models/services';
+import CallsData from '../services/services';
 const getData = new CallsData();
 
 export default {
